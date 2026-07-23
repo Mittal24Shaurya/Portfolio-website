@@ -3,7 +3,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import Navbar from "./Navbar";
-import Logo from "/Users/shauryamittal/Documents/portfolio/src/assets/Myphoto.jpeg"
+import Logo from "../assets/Myphoto.jpeg"
 const FirstLanding = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-950 via-black to-slate-950 overflow-hidden relative">
