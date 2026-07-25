@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import {FaPython,FaReact,FaNodeJs} from "react-icons/fa";
-
+import {useNavigate} from 'react-router-dom'
 import {SiMongodb,SiExpress,SiNumpy,SiPandas} from "react-icons/si";
 
 import { GoProject } from "react-icons/go";
@@ -59,6 +59,10 @@ const projects = [
 ];
 
 const Skills = () => {
+  const navigate=useNavigate();
+  const handleClick=()=>{
+    navigate("/acumen")
+  }
   return (
     <section className="min-h-screen bg-gradient-to-br from-emerald-950 via-black to-slate-950 relative overflow-hidden text-white">
 
@@ -120,7 +124,9 @@ const Skills = () => {
                 </h3>
                 </a>
               </div>
+
             ))}
+            <button className="bg-green-500 w-40 rounded hover:bg-green-700 ml-2" onClick={handleClick}>More About Project</button>
 
           </div>
 
