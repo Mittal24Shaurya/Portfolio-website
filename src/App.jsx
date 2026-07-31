@@ -4,6 +4,10 @@ import About from './pages/About'
 import Skills from "./pages/skills"
 import Contact from './pages/Contact'
 import Acumen from "./pages/AcumenIntelligence"
+import DataAnalysis from "./pages/DataAnalysisProject"
+import MortgageCalculator from "./pages/MortgageCalculator"
+
+
 const App = () => {
   return (
     <Routes>
@@ -12,6 +16,8 @@ const App = () => {
       <Route path="/skills" element={<Skills/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/acumen" element={<Acumen/>}/>
+      <Route path="/dataanalysis" element={<DataAnalysis/>}/>
+      <Route path="/mortgage-calculator" element={<MortgageCalculator/>}/>
     </Routes>
 
   )

@@ -61,6 +61,7 @@ const projects = [
 const Skills = () => {
   const navigate=useNavigate();
   const handleClick=()=>{
+    console.log("Button clicked")
     navigate("/acumen")
   }
   return (
@@ -118,15 +119,14 @@ const Skills = () => {
                 key={index}
                 className="flex flex-col md:flex-row justify-between items-center bg-white/5 border border-white/10 rounded-xl p-6 hover:border-cyan-400 transition"
               >
-                <a href={project.link}>
                 <h3 className="text-xl font-semibold">
                   {project.title}
                 </h3>
-                </a>
+                <button className="bg-green-500 w-40 rounded hover:bg-green-700 ml-2" onClick={handleClick}>Explore More</button>
               </div>
 
             ))}
-            <button className="bg-green-500 w-40 rounded hover:bg-green-700 ml-2" onClick={handleClick}>More About Project</button>
+
 
           </div>
 
