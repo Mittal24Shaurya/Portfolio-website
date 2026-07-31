@@ -1,4 +1,4 @@
-import Mortgagecalculator from "/Users/shauryamittal/Documents/portfolio/src/assets/Mortgage-calculator.png"
+import Mortgagecalculator from "../assets/Mortgage-calculator.png"
 
 const MortgageCalculator = () => {
 
