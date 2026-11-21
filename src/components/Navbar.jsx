@@ -8,7 +8,7 @@ const Navbar = () => {
 
           <div className="flex justify-between items-center px-10 py-5">
 
-            <h1 className="text-white text-2xl font-bold">
+            <h1 className="text-white text-2xl font-bold hover:text-emerald-400 transition duration-500">
               Portfolio
             </h1>
 

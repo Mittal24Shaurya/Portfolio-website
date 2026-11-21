@@ -17,8 +17,8 @@ const About = () => {
       <Navbar/>
     <div className="mt-30">
       <div className="py-5 text-white leading-relaxed">
-        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition">
-        <h3 className="text-2xl font-bold">About Me :</h3>
+        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition duration-300">
+        <h3 className="text-2xl font-bold text-emerald-400 hover:text-emerald-600 transition duration-400">About Me :</h3>
          
           <p>
           Hi, I'm Shaurya, a Computer Science student and aspiring Full-Stack Developer with a strong interest in Artificial Intelligence, Machine Learning, and Data Analytics. I enjoy building practical applications that solve real-world problems by combining modern web technologies with intelligent systems.
@@ -35,8 +35,8 @@ const About = () => {
       </div>
 
        <div className=" py-5 text-white leading-relaxed">
-        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition">
-        <h3 className="text-2xl font-bold">Education : </h3>
+        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition duration-300">
+        <h3 className="text-2xl font-bold text-emerald-400">Education : </h3>
         <ul className="list-disc pl-5 space-y-2">
           <li>Class 10th  CBSE BOARD : 92% (AGDAV Centenary Public School) </li>
           <li>Class 12th  CBSE BOARD : 89.2% (AGDAV Centenary Public School) </li>
@@ -46,14 +46,14 @@ const About = () => {
       </div>
 
         <div className="py-5 text-white leading-relaxed">
-        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition px-10">
-        <h3 className="text-2xl font-bold">Current Focus: </h3>
+        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition duration-300">
+        <h3 className="text-2xl font-bold text-emerald-400">Current Focus: </h3>
         <p>I believe there's always something new to learn in technology. Right now, I'm focused on becoming a better full-stack developer by building practical applications, improving my analytical and logical thinking, and exploring modern technologies like AI and data-driven development. I'm also looking forward to securing a software development internship where I can contribute to impactful projects while learning from experienced engineers and growing as a developer.</p>
         </div>
       </div>
         <div className="text-white leading-relaxed">
-        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition px-10">
-        <h3 className="text-2xl font-bold">Acheivement : </h3>
+        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition duration-300">
+        <h3 className="text-2xl font-bold text-emerald-400">Acheivement : </h3>
         <ul className="list-disc pl-5 space-y-2">
           <li> AIR : 47464 in Joint Entrance Examination </li>
           <li> 210+ Leetcode problems done</li>
@@ -62,8 +62,8 @@ const About = () => {
         </div>
       </div>
       <div className="py-5 text-white leading-relaxed">
-        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition px-10">
-        <h3 className="text-2xl font-bold">My Abilities : </h3>
+        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition duration-300">
+        <h3 className="text-2xl font-bold text-emerald-400">My Abilities : </h3>
         <ul className="list-disc pl-5 space-y-2">
           <li>  Project Management</li>
           <li>  Team Work</li>
@@ -73,8 +73,8 @@ const About = () => {
         </div>
       </div>
       <div className="py-5 text-white leading-relaxed">
-        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition px-10">
-        <h3 className="text-2xl font-bold">My Hobbies : </h3>
+        <div className="items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition duration-300">
+        <h3 className="text-2xl font-bold text-emerald-400">My Hobbies : </h3>
         <ul className="list-disc pl-5 space-y-2">
           <li> Doing workout</li>
           <li> Listening Music</li>
@@ -83,9 +83,9 @@ const About = () => {
         </div>
       </div>
       <div className="py-5 text-white leading-relaxed">
-        <div className="flex items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition">
+        <div className="flex items-center gap-6 bg-white/5 border border-white/10 rounded-xl p-5 hover:border-emerald-400 transition duration-300">
         <h3>Let's Connect : </h3>
-        <button className="bg-green-500 w-25 rounded hover:bg-green-700" onClick={handleClick}>Contact</button>
+        <button className="bg-green-500 w-25 rounded hover:bg-green-700 transition duration-300" onClick={handleClick}>Contact</button>
         </div>
       </div>
       </div>

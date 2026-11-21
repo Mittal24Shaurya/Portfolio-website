@@ -58,6 +58,7 @@ const projects = [
   },
 ];
 
+
 const Skills = () => {
   const navigate=useNavigate();
   const handleClick=()=>{
@@ -122,7 +123,7 @@ const Skills = () => {
                 <h3 className="text-xl font-semibold">
                   {project.title}
                 </h3>
-                <button className="bg-green-500 w-40 rounded hover:bg-green-700 ml-2" onClick={handleClick}>Explore More</button>
+                <button className="bg-green-500 w-40 rounded hover:bg-green-700 ml-2" href={project.link} onClick={handleClick}>Explore More</button>
               </div>
 
             ))}
